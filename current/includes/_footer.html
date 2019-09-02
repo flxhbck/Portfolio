@@ -1,0 +1,60 @@
+
+<section id="footer">
+    <p>
+      Get in touch for anything from work inquiries, speaking engagements, or simply to connect!  <br/>
+      If you are around Malm&ouml;, I am happy to grab a coffee with you!  <br/>
+      <br/>
+      You can find me on <a href="https://twitter.com/flxhbck">Twitter</a>, sporadically on
+      <a href="https://www.linkedin.com/in/felix-heibeck-0b9764b3/">LinkedIn</a>, and usually via email: fel.heibeck (at) gmail.com <br />
+    </p>
+
+    <span>Made by Felix Heibeck. (c) 2019</span>
+</section>
+
+
+<script>
+$(document).ready(function(){
+
+  $(".combolink").hover(
+       function(){
+         var classList = this.className.split(' ');
+         var projectname = classList[2];
+
+         var video = document.getElementById(projectname+"-video");
+         video.currentTime = 0;
+         video.play();
+
+         if ($(this).is(".video")){
+           var link = document.getElementById(projectname+"-link");
+           var position = $(window).scrollTop();
+           link.focus();
+           $(window).scrollTop(position);
+         } else {
+           var link = document.getElementById(projectname+"-imagelink");
+           var position = $(window).scrollTop();
+           link.focus();
+           $(window).scrollTop(position);
+         }
+
+       },
+       function(){
+         var classList = this.className.split(' ');
+         var projectname = classList[2];
+
+         var video = document.getElementById(projectname+"-video");
+         video.pause();
+
+         var link = document.getElementById(projectname+"-link");
+         link.blur();
+
+         var imagelink = document.getElementById(projectname+"-imagelink");
+         imagelink.blur();
+       }
+   );
+});
+</script>
+
+
+</body>
+
+</html>
