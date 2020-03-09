@@ -1,278 +1,380 @@
-<!-- @include _header -->
+<!DOCTYPE html>
+<html>
 
-<div class="gridcontainer">
+<head>
 
-  <section id="Hero" class="hero">
-    <p>
-      Hej, I’m Felix. I am an interaction designer, technologist, and angry optimist with a passion for creating interactions & products with people and the environment in mind.
-    </p>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <script src="assets/js/jquery-1.8.3.min.js"></script>
+  <script src="assets/js/p5.min.js"></script>
+
+  <title>Felix Heibeck</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1><a href="./">Felix Heibeck</a></h1>
+
+    <nav>
+      <!-- <a href="about.html">About</a> -->
+      <a href="https://medium.com/@flxhbck">Medium</a>
+      <a href="https://twitter.com/flxhbck">Twitter</a>
+    </nav>
+  </header>
+
+  <div class="clearfix"></div>
+
+
+
+
+
+
+
+
+  <div class="gridcontainer">
+
+    <section id="Hero" class="hero">
+      <p>
+        Hej, I’m Felix 👋🏼 <br />
+        I am an interaction designer, technologist, and angry optimist with a passion for creating responsibly delightful products &amp; interactions.
+      </p>
+    </section>
+
+
+
+    <section class="summary">
+      <p>
+        I work at
+        <a href="http://www.above.se/">Above</a> in Malm&ouml;, where we often work through
+        <a href="https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542" class="combolink link exploratoryproto" id="exploratoryproto-link">exploratory prototyping</a> on products that I mostly can't talk about yet.
+      </p>
+    </section>
+
+
+    <figure class="project effect">
+      <a href="https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542" class="combolink video exploratoryproto" id="exploratoryproto-imagelink">
+        <video muted loop width="100%" id="exploratoryproto-video">
+          <source src="assets/handbrake/exploratoryprototyping.mp4">
+        </video>
+          <p><span>Exploratory Protyping</span></p>
+      </a>
+    </figure>
+
+
+    <figure class="project effect">
+      <a class="combolink video dell" id="dell-imagelink">
+        <video muted loop width="100%" id="dell-video">
+          <source src="assets/handbrake/dell.mp4">
+        </video>
+          <p><span> </span></p>
+      </a>
+    </figure>
+
+
+
+    <figure class="project effect">
+      <a href="https://dscout.com/people-nerds/kirsten-lewis-agile-research-prototypes-sonos" class="combolink video sonos" id="sonos-imagelink">
+        <video muted loop width="100%" id="sonos-video">
+          <source src="assets/handbrake/sonos.mp4">
+        </video>
+          <p><span> </span></p>
+      </a>
+    </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="Teaching" class="summary">
+      <p>
+        Sometimes I get to teach classes and worskops on
+        <a href="" class="combolink link sustainability" id="sustainability-link">design for sustainability</a> (at CIID),
+        <a href="" class="combolink link hyperisland" id="hyperisland-link"> tangible interfaces</a> and
+        <a href="http://pneuduino.org/projects/" class="combolink link inflatingcuriosity" id="inflatingcuriosity-link">interactive inflatables</a>, amongst other things.
+      </p>
+    </section>
+
+
+
+    <figure class="project" >
+      <a href="https://medium.com/a-view-from-above/sustainable-user-experience-8260006f5232" class="combolink video sustainability" id="sustainability-imagelink">
+        <video muted loop width="100%" id="sustainability-video">
+          <source src="assets/handbrake/sustainableclass.mp4">
+        </video>
+        <p><span>Design for Sustainability</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="" class="combolink video hyperisland" id="hyperisland-imagelink">
+        <video muted loop width="100%" id="hyperisland-video">
+          <source src="assets/handbrake/hyperisland.mp4">
+        </video>
+        <p><span>Tangible Interfaces</span></p>
+
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="http://pneuduino.org/projects/" class="combolink video inflatingcuriosity" id="inflatingcuriosity-imagelink">
+        <video muted loop width="100%" id="inflatingcuriosity-video">
+          <source src="assets/handbrake/inflatingcuriosity.mp4">
+        </video>
+        <p><span>Interactive Inflatables</span></p>
+      </a>
+    </figure>
+
+
+
+
+
+
+    <section id="Teague" class="summary">
+      <p>
+        When I worked at
+        <a href="http://teague.com/">TEAGUE</a> I helped understand how design can create
+        <a href="https://www.youtube.com/watch?v=YdEjbHzMAiM" class="combolink link autonomoustrust" id="autonomoustrust-link">trust in autonomous vehicles</a>, used
+        <a href="https://medium.com/teague-labs/prototyping-car-ux-in-vr-461d8442b6e2" class="combolink link vrproto" id="vrproto-link">VR to prototype Car UX</a>, and explored what
+        <a href="https://medium.com/teague-labs/crossing-the-road-in-the-world-of-autonomous-cars-e14827bfa301" class="combolink link crossingroad" id="crossingroad-link">crossing a street of autonomous cars</a> might feel like.
+      </p>
+    </section>
+
+    <figure class="project" >
+      <a href="https://www.youtube.com/watch?v=YdEjbHzMAiM" class="combolink video autonomoustrust" id="autonomoustrust-imagelink">
+        <video muted loop width="100%" preload="metadata" id="autonomoustrust-video" >
+          <source src="assets/handbrake/autonomous-trust.mp4#t=2">
+        </video>
+        <p><span>Trust in autonomous cars</span></p>
+      </a>
+    </figure>
+
+
+    <figure class="project" >
+      <a href="https://medium.com/teague-labs/prototyping-car-ux-in-vr-461d8442b6e2" class="combolink video vrproto" id="vrproto-imagelink">
+        <video muted loop width="100%" id="vrproto-video" >
+          <source src="assets/handbrake/VR-proto.mp4">
+        </video>
+        <p><span>VR prototyping Car UX</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="https://medium.com/teague-labs/crossing-the-road-in-the-world-of-autonomous-cars-e14827bfa301" class="combolink video crossingroad" id="crossingroad-imagelink">
+        <video muted loop width="100%" id="crossingroad-video">
+          <source src="assets/handbrake/crossingstreet.mp4">
+        </video>
+        <p><span>Crossing the autonomous road</span></p>
+      </a>
+    </figure>
+
+
+
+
+
+
+
+
+
+    <section id="TeagueLabs" class="summary">
+      <p>
+        At TEAGUE Labs, I also lead efforts that proposed a
+        <a href="https://medium.com/teague-labs/filo-c24aa62bef2a" class="combolink link filo" id="filo-link">lightbulb with graceful obsolescence</a>, imagined novel ways to
+        <a href="https://medium.com/teague-labs/tap-to-tweak-ca55afdaf3fc" class="combolink link taptotweak" id="taptotweak-link">control IoT devices</a>, and built an
+        <a href="https://medium.com/teague-labs/charging-docks-in-the-connected-home-2f483c1ef340" class="combolink link alarm" id="alarm-link">alarm clock that charges your phone</a>.
+      </p>
+    </section>
+
+    <figure class="project" >
+      <a href="https://medium.com/teague-labs/filo-c24aa62bef2a" class="combolink video filo" id="filo-imagelink">
+        <video muted loop width="100%" preload="metadata" id="filo-video">
+          <source src="assets/handbrake/filo.mp4#t=5.5">
+        </video>
+        <p><span>Filo - modular lightbulb</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="https://medium.com/teague-labs/tap-to-tweak-ca55afdaf3fc" class="combolink video taptotweak" id="taptotweak-imagelink">
+        <video muted loop width="100%" preload="metadata" id="taptotweak-video" >
+          <source src="assets/handbrake/taptotweak.mp4#t=5">
+        </video>
+        <p><span>Tap to Tweak</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="https://medium.com/teague-labs/charging-docks-in-the-connected-home-2f483c1ef340" class="combolink video alarm" id="alarm-imagelink">
+        <video muted loop width="100%" id="alarm-video">
+          <source src="assets/handbrake/alarmdock.mp4">
+        </video>
+        <p><span>Alarm Dock</span></p>
+      </a>
+    </figure>
+
+
+
+
+
+
+
+
+    <section id="ML-MS" class="summary">
+      <p>
+        During my Masters at the MIT Media Lab I developed <a href="https://tangible.media.mit.edu/project/unimorph/" class="combolink link unimorph" id="unimorph-link">thin-film interfaces that bend</a>, created a <a href="http://pneuduino.org/toolkit/" class="combolink link pneuduino" id="pneuduino-link">toolkit for interactive inflatables</a>, and co-authored a paper on <a href="https://tangible.media.mit.edu/project/aeromorph/" class="combolink link aeromorph" id="aeromorph-link">designing inflatables from various materials</a>.
+      </p>
+    </section>
+
+
+    <figure class="project" >
+      <a href="https://tangible.media.mit.edu/project/unimorph/" class="combolink video unimorph" id="unimorph-imagelink">
+        <video muted loop width="100%" preload="metadata" id="unimorph-video">
+          <source src="assets/handbrake/unimorph.mp4#t=5.8">
+        </video>
+        <p><span>uniMorph</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="http://pneuduino.org/toolkit/" class="combolink video pneuduino" id="pneuduino-imagelink">
+        <video muted loop width="100%" id="pneuduino-video">
+          <source src="assets/handbrake/pneuduino.mp4">
+        </video>
+        <p><span>Pneuduino</span></p>
+      </a>
+    </figure>
+
+    <figure class="project" >
+      <a href="https://tangible.media.mit.edu/project/aeromorph/" class="combolink video aeromorph" id="aeromorph-imagelink">
+        <video muted loop width="100%" preload="metadata" id="aeromorph-video">
+          <source src="assets/handbrake/aeromorph.mp4#t=2">
+        </video>
+        <p><span>aeroMorph</span></p>
+      </a>
+    </figure>
+
+
+
+
+
+    <section class="summary">
+
+      <p>
+        Some older projects I worked on and am still somewhat proud of include a
+        <a href="https://vimeo.com/56011933" class="combolink link cuboino" id="cuboino-link">digital / analog marble game</a>, a design fiction project about a
+        <a href="https://www.fastcompany.com/3026104/a-wearable-book-that-programs-you-with-feelings" class="combolink link sensoryfiction" id="sensoryfiction-link">book that makes you feel things</a> (literally), and co-authoring a paper on
+        <a href="https://tangible.media.mit.edu/project/thaw/" class="combolink link thaw" id="thaw-link">interactions with phones on screens</a>
+      </p>
+    </section>
+
+    <figure class="project" >
+      <a href="https://vimeo.com/56011933" class="combolink video cuboino" id="cuboino-imagelink">
+        <video muted loop width="100%" preload="metadata" id="cuboino-video">
+          <source src="assets/handbrake/cuboino.mp4#t=7.5" >
+        </video>
+        <p><span>Cuboino</span></p>
+      </a>
+    </figure>
+
+
+    <figure class="project" >
+      <a href="https://www.fastcompany.com/3026104/a-wearable-book-that-programs-you-with-feelings" class="combolink video sensoryfiction" id="sensoryfiction-imagelink">
+        <video muted loop width="100%" id="sensoryfiction-video">
+          <source src="assets/handbrake/sensoryfiction.mp4">
+        </video>
+        <p><span>Sensory Fiction</span></p>
+      </a>
+    </figure>
+
+
+    <figure class="project" >
+      <a href="https://tangible.media.mit.edu/project/thaw/" class="combolink video thaw" id="thaw-imagelink">
+        <video muted loop width="100%" id="thaw-video">
+          <source src="assets/handbrake/thaw.mp4">
+        </video>
+        <p><span>THAW</span></p>
+      </a>
+    </figure>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <section id="footer">
+      <p>
+        Get in touch for anything from work inquiries, speaking engagements, or simply to connect!  <br/>
+        If you are around Malm&ouml;, I am happy to grab a coffee with you!  <br/>
+        <br/>
+        You can find me on <a href="https://twitter.com/flxhbck">Twitter</a>, sporadically on
+        <a href="https://www.linkedin.com/in/felix-heibeck-0b9764b3/">LinkedIn</a>, and usually via email: fel.heibeck (at) gmail.com <br />
+      </p>
+
+      <span>Made by Felix Heibeck. (c) 2019</span>
   </section>
 
 
-
-  <section class="summary">
-    <p>
-      I work at
-      <a href="http://www.above.se/">Above</a> in Malm&ouml;, where I help creating innovative products with
-      <a href="https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542" class="combolink link exploratoryproto" id="exploratoryproto-link">exploratory prototyping</a> for products that I mostly can't talk about.
-    </p>
-  </section>
-
-
-  <figure class="project effect">
-    <a href="https://medium.com/a-view-from-above/exploratory-prototyping-in-product-design-6d89ff17f542" class="combolink video exploratoryproto" id="exploratoryproto-imagelink">
-      <video muted loop width="100%" id="exploratoryproto-video">
-        <source src="assets/handbrake/exploratoryprototyping.mp4">
-      </video>
-        <p><span>Exploratory Protyping</span></p>
-    </a>
-  </figure>
-
-
-  <figure class="project effect">
-    <a class="combolink video dell" id="dell-imagelink">
-      <video muted loop width="100%" id="dell-video">
-        <source src="assets/handbrake/dell.mp4">
-      </video>
-        <p><span> </span></p>
-    </a>
-  </figure>
-
-
-
-  <figure class="project effect">
-    <a href="https://dscout.com/people-nerds/kirsten-lewis-agile-research-prototypes-sonos" class="combolink video sonos" id="sonos-imagelink">
-      <video muted loop width="100%" id="sonos-video">
-        <source src="assets/handbrake/sonos.mp4">
-      </video>
-        <p><span> </span></p>
-    </a>
-  </figure>
-
-
-
-
-
-
-
-
-
-
-
-
-  <section id="Teaching" class="summary">
-    <p>
-      Sometimes I get to teach classes and worskops on
-      <a href="" class="combolink link sustainability" id="sustainability-link">design for sustainability</a> (at CIID),
-      <a href="" class="combolink link hyperisland" id="hyperisland-link"> tangible interfaces</a> and
-      <a href="http://pneuduino.org/projects/" class="combolink link inflatingcuriosity" id="inflatingcuriosity-link">interactive inflatables</a>, amongst other things.
-    </p>
-  </section>
-
-
-
-  <figure class="project" >
-    <a href="https://medium.com/a-view-from-above/sustainable-user-experience-8260006f5232" class="combolink video sustainability" id="sustainability-imagelink">
-      <video muted loop width="100%" id="sustainability-video">
-        <source src="assets/handbrake/sustainableclass.mp4">
-      </video>
-      <p><span>Design for Sustainability</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="" class="combolink video hyperisland" id="hyperisland-imagelink">
-      <video muted loop width="100%" id="hyperisland-video">
-        <source src="assets/handbrake/hyperisland.mp4">
-      </video>
-      <p><span>Tangible Interfaces</span></p>
-
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="http://pneuduino.org/projects/" class="combolink video inflatingcuriosity" id="inflatingcuriosity-imagelink">
-      <video muted loop width="100%" id="inflatingcuriosity-video">
-        <source src="assets/handbrake/inflatingcuriosity.mp4">
-      </video>
-      <p><span>Interactive Inflatables</span></p>
-    </a>
-  </figure>
-
-
-
-
-
-
-  <section id="Teague" class="summary">
-    <p>
-      When I worked at
-      <a href="http://teague.com/">TEAGUE</a> I helped understand how design can create
-      <a href="https://www.youtube.com/watch?v=YdEjbHzMAiM" class="combolink link autonomoustrust" id="autonomoustrust-link">trust in autonomous vehicles</a>, used
-      <a href="https://medium.com/teague-labs/prototyping-car-ux-in-vr-461d8442b6e2" class="combolink link vrproto" id="vrproto-link">VR to prototype Car UX</a>, and explored what
-      <a href="https://medium.com/teague-labs/crossing-the-road-in-the-world-of-autonomous-cars-e14827bfa301" class="combolink link crossingroad" id="crossingroad-link">crossing a street of autonomous cars</a> might feel like.
-    </p>
-  </section>
-
-  <figure class="project" >
-    <a href="https://www.youtube.com/watch?v=YdEjbHzMAiM" class="combolink video autonomoustrust" id="autonomoustrust-imagelink">
-      <video muted loop width="100%" preload="metadata" id="autonomoustrust-video" >
-        <source src="assets/handbrake/autonomous-trust.mp4#t=2">
-      </video>
-      <p><span>Design for trust in autonomous cars</span></p>
-    </a>
-  </figure>
-
-
-  <figure class="project" >
-    <a href="https://medium.com/teague-labs/prototyping-car-ux-in-vr-461d8442b6e2" class="combolink video vrproto" id="vrproto-imagelink">
-      <video muted loop width="100%" id="vrproto-video" >
-        <source src="assets/handbrake/VR-proto.mp4">
-      </video>
-      <p><span>VR prototyping for Car UX</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="https://medium.com/teague-labs/crossing-the-road-in-the-world-of-autonomous-cars-e14827bfa301" class="combolink video crossingroad" id="crossingroad-imagelink">
-      <video muted loop width="100%" id="crossingroad-video">
-        <source src="assets/handbrake/crossingstreet.mp4">
-      </video>
-      <p><span>Crossing the autonomous car road</span></p>
-    </a>
-  </figure>
-
-
-
-
-
-
-
-
-
-  <section id="TeagueLabs" class="summary">
-    <p>
-      At TEAGUE Labs, I also lead efforts that proposed a
-      <a href="https://medium.com/teague-labs/filo-c24aa62bef2a" class="combolink link filo" id="filo-link">lightbulb with graceful obsolescence</a>, imagined novel ways to
-      <a href="https://medium.com/teague-labs/tap-to-tweak-ca55afdaf3fc" class="combolink link taptotweak" id="taptotweak-link">control IoT devices</a>, and built an
-      <a href="https://medium.com/teague-labs/charging-docks-in-the-connected-home-2f483c1ef340" class="combolink link alarm" id="alarm-link">alarm clock that charges your phone</a>.
-    </p>
-  </section>
-
-  <figure class="project" >
-    <a href="https://medium.com/teague-labs/filo-c24aa62bef2a" class="combolink video filo" id="filo-imagelink">
-      <video muted loop width="100%" preload="metadata" id="filo-video">
-        <source src="assets/handbrake/filo.mp4#t=5.5">
-      </video>
-      <p><span>Filo</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="https://medium.com/teague-labs/tap-to-tweak-ca55afdaf3fc" class="combolink video taptotweak" id="taptotweak-imagelink">
-      <video muted loop width="100%" preload="metadata" id="taptotweak-video" >
-        <source src="assets/handbrake/taptotweak.mp4#t=5">
-      </video>
-      <p><span>Tap to Tweak</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="https://medium.com/teague-labs/charging-docks-in-the-connected-home-2f483c1ef340" class="combolink video alarm" id="alarm-imagelink">
-      <video muted loop width="100%" id="alarm-video">
-        <source src="assets/handbrake/alarmdock.mp4">
-      </video>
-      <p><span>Alarm Dock</span></p>
-    </a>
-  </figure>
-
-
-
-
-
-
-
-
-  <section id="ML-MS" class="summary">
-    <p>
-      During my Masters at the MIT Media Lab I developed <a href="https://tangible.media.mit.edu/project/unimorph/" class="combolink link unimorph" id="unimorph-link">thin-film interfaces that bend</a>, created a <a href="http://pneuduino.org/toolkit/" class="combolink link pneuduino" id="pneuduino-link">toolkit for interactive inflatables</a>, and co-authored a paper on <a href="https://tangible.media.mit.edu/project/aeromorph/" class="combolink link aeromorph" id="aeromorph-link">designing inflatables from various materials</a>.
-    </p>
-  </section>
-
-
-  <figure class="project" >
-    <a href="https://tangible.media.mit.edu/project/unimorph/" class="combolink video unimorph" id="unimorph-imagelink">
-      <video muted loop width="100%" preload="metadata" id="unimorph-video">
-        <source src="assets/handbrake/unimorph.mp4#t=5.8">
-      </video>
-      <p><span>uniMorph</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="http://pneuduino.org/toolkit/" class="combolink video pneuduino" id="pneuduino-imagelink">
-      <video muted loop width="100%" id="pneuduino-video">
-        <source src="assets/handbrake/pneuduino.mp4">
-      </video>
-      <p><span>Pneuduino</span></p>
-    </a>
-  </figure>
-
-  <figure class="project" >
-    <a href="https://tangible.media.mit.edu/project/aeromorph/" class="combolink video aeromorph" id="aeromorph-imagelink">
-      <video muted loop width="100%" preload="metadata" id="aeromorph-video">
-        <source src="assets/handbrake/aeromorph.mp4#t=2">
-      </video>
-      <p><span>aeroMorph</span></p>
-    </a>
-  </figure>
-
-
-
-
-
-  <section class="summary">
-
-    <p>
-      Some older projects I worked on and am still proud of include a
-      <a href="https://vimeo.com/56011933" class="combolink link cuboino" id="cuboino-link">digital extension for a marble game</a>, a design fiction project about a
-      <a href="https://www.fastcompany.com/3026104/a-wearable-book-that-programs-you-with-feelings" class="combolink link sensoryfiction" id="sensoryfiction-link">book that makes you feel things</a> (literally), and co-authoring a paper on
-      <a href="https://tangible.media.mit.edu/project/thaw/" class="combolink link thaw" id="thaw-link">hybrid interactions with phones on screens</a>
-    </p>
-  </section>
-
-  <figure class="project" >
-    <a href="https://vimeo.com/56011933" class="combolink video cuboino" id="cuboino-imagelink">
-      <video muted loop width="100%" preload="metadata" id="cuboino-video">
-        <source src="assets/handbrake/cuboino.mp4#t=7.5" >
-      </video>
-      <p><span>Cuboino</span></p>
-    </a>
-  </figure>
-
-
-  <figure class="project" >
-    <a href="https://www.fastcompany.com/3026104/a-wearable-book-that-programs-you-with-feelings" class="combolink video sensoryfiction" id="sensoryfiction-imagelink">
-      <video muted loop width="100%" id="sensoryfiction-video">
-        <source src="assets/handbrake/sensoryfiction.mp4">
-      </video>
-      <p><span>Sensory Fiction</span></p>
-    </a>
-  </figure>
-
-
-  <figure class="project" >
-    <a href="https://tangible.media.mit.edu/project/thaw/" class="combolink video thaw" id="thaw-imagelink">
-      <video muted loop width="100%" id="thaw-video">
-        <source src="assets/handbrake/thaw.mp4">
-      </video>
-      <p><span>THAW</span></p>
-    </a>
-  </figure>
-
-
-
-
-</div>
-
-<!-- @include _footer -->
+  <script>
+  $(document).ready(function(){
+
+    $(".combolink").hover(
+         function(){
+           var classList = this.className.split(' ');
+           var projectname = classList[2];
+
+           var video = document.getElementById(projectname+"-video");
+           video.currentTime = 0;
+           if (video != null) video.play();
+
+           if ($(this).is(".video")){
+             var link = document.getElementById(projectname+"-link");
+             var position = $(window).scrollTop();
+             if (link != null) link.focus();
+             $(window).scrollTop(position);
+           } else {
+             var link = document.getElementById(projectname+"-imagelink");
+             var position = $(window).scrollTop();
+             if (link != null) link.focus();
+             $(window).scrollTop(position);
+           }
+
+         },
+         function(){
+           var classList = this.className.split(' ');
+           var projectname = classList[2];
+
+           var video = document.getElementById(projectname+"-video");
+           if(video != null) video.pause();
+
+           var link = document.getElementById(projectname+"-link");
+           if (link != null) link.blur();
+
+           var imagelink = document.getElementById(projectname+"-imagelink");
+           if (typeof(imageLink) != "undefined" ) imagelink.blur();
+         }
+     );
+  });
+  </script>
+
+
+  </body>
+
+  </html>
